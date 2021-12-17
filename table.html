@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>student table</title>
+        <style>
+            table{
+               width:70%;
+               text-align: center; 
+               border-color:hotpink;
+               background-color:white;
+            
+            }
+            h1{
+                color: blue;
+            }
+
+            th{
+                color:green ;
+                font-size: large;
+            }
+
+            body{
+                background-color: aqua;
+            }
+
+            #fail{
+                color:red;
+            }
+
+            .grade{
+                font-size: large;
+            
+            }
+
+
+            
+        </style>
+    </head>
+    <body>
+        <h1 align="center"><u>Student Table</u></h1>
+        <table border="2" align="center" cellpadding="10" cellspacing="0">
+           <tr>
+            <th>Roll No</th>
+            <th>Student Name</th>
+            <th>Quaterly Marks </th>
+            <th></th>
+            <th>half-yearly Marks</th>
+            <th>Anual Marks</th>
+            <th class="grade">Grade</th>
+           </tr>
+
+           <tr>
+               <td>1</td>
+               <td>Ganesh</td>
+               <td>50</td>
+               <td rowspan="5" >MARKS</td>
+               <td>60</td>
+               <td>450</td>
+               <td class="grade">C</td>
+
+           </tr>
+
+           <tr>
+            <td>2</td>
+            <td>Srikanth</td>
+            <td>60</td>
+            
+            <td id="fail">25</td>
+            
+            <td colspan="2" id="fail" class="grade">F</td>
+
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Rajesh</td>
+            <td>50</td>
+            
+            <td>45</td>
+            <td>442</td>
+            <td class="grade">C</td>
+
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Krishna</td>
+            <td>56</td>
+            
+            <td>45</td>
+            <td>453</td>
+            <td class="grade">C</td>
+
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Raj</td>
+            <td id="fail">30</td>
+            <td>45</td>
+            <td colspan="2" id="fail" class="grade">F</td>
+
+        </tr>
+
+        </table>
+    </body>
+</html>
